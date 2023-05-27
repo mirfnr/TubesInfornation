@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="png" href="login/Logo Infornation.png" />
+    <title>INFORNATION</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="logo">INFORNATION</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="home.html"></a>Home</li>
+        <li class="active"><a href="#about">About</a></li>
+        <li class="active"><a href="#competition">Competition</a></li>
+        <li class="active"><a href="#seminar">Seminar</a></li>
+      </ul>
+      <img src="img/menu-btn.svg" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Dies Natalis Teknik Informatika UNRAM 2023</h2>
+        <div class="line"></div>
+        <h1>INFORNATION 2023</h1>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="title" id="about">
+        <div class="abt">About</div>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/aboutt.jpg" width="600" alt="" />
+        </div> 
+        <div class="col" id="about">
+          <h4>Infornation 2023</h4>
+          <p>
+            Infornation 2023 merupakan dies natalis program studi teknik informatika ke-11 yang diselanggarakan oleh himpunan mahasiswa informatika dan akan
+bekerjasama dengan PSTI yang nantinya akan mencakup beberapa rangkaian kegiatan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="competition" id="competition">
+      <div class="compe" id="competition">
+        <h1>Competition</h1>
+        <div class="line"></div>
+        <div class="row">
+          <div class="col">
+            <img src="./img/futsal.jpg" width="600" alt="" />
+            <div class="kompetisi">Lomba Futsal</div>
+            <p>Lomba yang ditujukan kepada mahasiswa/i fakultas teknik Universitas Mataram untuk bersaing dalam rangka meningkatkan silaturahmi civitas akademika antar jurusan.</p>
+            <a href="futsal.html" class="ctn">Learn More</a>
+          </div>
+          <div class="col">
+            <img src="./img/videografi.jpeg" width="600" alt="" />
+            <div class="kompetisi">Lomba Vidiografi</div>
+            <p>Lomba yang ditujukan kepada mahasiswa/i seluruh indonesia untuk bersaing dalam kreatifitas dan ide guna menyampaikan pesan atau informasi dalam bentuk videografi.</p>
+            <a href="videografi.html" class="ctn">Learn More</a>
+          </div>
+      </div>
+    </section>
+
+    <section class="seminar" id="seminar">
+      <div class="semi" id="seminar">
+        <div class="smnr">Seminar</div>
+        <div class="line"></div>
+        <div class="row">
+          <div class="col">
+            <img src="./img/seminar.jpg" width="600" alt="" />
+            <div class="semi-konten"><br></div>
+            <p>Seminar ini merupakan salah satu rangkaian kegiatan dari INFORNATION 2023 yang bertujuan untuk meningkatkan pengetahuan serta kesadaran masyarakat terkait perkembangan dunia teknologi.
+            Acara ini akan diisi dengan presentasi menarik, studi kasus, panel diskusi, dan sesi tanya jawab yang memberikan kesempatan bagi peserta untuk berinteraksi langsung dengan para pembicara. Selain itu, akan ada ruang networking yang disediakan untuk memfasilitasi pertukaran gagasan dan peluang kolaborasi antara peserta.
+            </p>
+            <a href="seminar.html" class="ctn">Learn More</a>
+          </div>
+      </div>
+    </section>
+
+
+ <footer>
+  <div class="footerContent">
+    <div class="socialIcons">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://instagram.com/ghinaftn__?igshid=ZDdkNTZiNTM"><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://wa.wizard.id/143a0b"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="footerNav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerBottom">
+    <p>CopyRight &copy;2023; Design by <span class="designer">Kelompok Irfan</span></p>
+  </div>
+ </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
